@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2025 at 02:06 PM
+-- Generation Time: May 05, 2025 at 03:38 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,9 +40,9 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`customer_id`, `first_name`, `last_name`, `email_address`, `number_of_complaints`) VALUES
-(321, 'Sopia', 'Solana', 'sopiya@gmail.com', 3),
-(450, 'Mariel', 'Doydora', 'mariel@gmail.com', 0),
-(532, 'GL', 'Fabila', 'fabila@gmail.com', 1);
+(321, 'Sopia', 'Solana', 'sopia@gmail.com', 3),
+(532, 'GL', 'Fabila', 'fabila@gmail.com', 1),
+(789, 'Mariel', 'Doydora', 'mariel@gmail.com', 0);
 
 -- --------------------------------------------------------
 
@@ -62,9 +62,9 @@ CREATE TABLE `sales` (
 --
 
 INSERT INTO `sales` (`purchase_number`, `order_id`, `date_of_purchase`, `customer_id`) VALUES
-(1, 10001, '2025-05-01', 450),
-(2, 10002, '2025-05-02', 321),
-(3, 10003, '2025-05-03', 532);
+(2, 10002, '0000-00-00', 321),
+(3, 10003, '0000-00-00', 532),
+(4, 10004, '0000-00-00', 789);
 
 --
 -- Indexes for dumped tables
